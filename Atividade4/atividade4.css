@@ -1,0 +1,21 @@
+body{
+    background: #0fee2d;
+}
+
+main{
+    background: #d6f745;
+    width: 50%;
+    position:relative;
+    left: 25%;
+}
+
+article{
+    background: #123456;
+    border: 5px solid #ffffff;
+    padding: 5px;
+    margin: 20px;
+}
+
+footer{
+    border-bottom: 10px solid white;
+}

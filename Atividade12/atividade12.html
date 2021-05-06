@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="atividade12.js"></script>
+</head>
+<body>
+    <form action="teste" method="POST" name="formulario1" id="formulario1" onsubmit="return validarDados();">
+        <div id="principal" width=200 height=200 align=left>
+            Nome:
+            <br>
+            <input name="idNome" type="text" id="idNome" size="50" maxlength="150">
+            <br>
+            <br>E-mail:
+            <br>
+            <input name="idEmail" type="text" id="idEmail" size="100" maxlength="150">
+            <br>
+            <br>Comentário:
+            <br>
+            <textarea name="idComentario" type="text" cols="50" rows="5" id="idComentario" value="" input></textarea>
+            <br>
+            <div name="pesquisa" align=center>
+            <br>Pesquisa:
+            <br>
+            <br>Primeira vez nesta página??
+            <br>
+            <br>
+            <input name="radioButton" type="radio">Sim
+            <input name="radioButton" type="radio">Não
+            <br>
+            <br>
+            <br>
+            <input name="submit" type="submit" form="formulario1" value="Enviar">
+            <input name="reset" type="reset" form="formulario1" value="Limpar">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

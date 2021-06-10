@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    background-color: black;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu li{
+    color:white;
+    display:block;
+    padding: 15px;
+}
+
+#menu li:first-child{
+    margin-right: auto;
+}
+
+main{
+    height:900px;
+    background-color: 	#dc143c;
+}
+
+.text{
+    text-align: center;
+}
+
+#inicio{
+    height:200px;
+    margin-top: 100px;
+}
+
+#habilidades{
+    background-color: #ffa07a;
+    height:700px
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.icons{
+    max-width:300px;
+    padding: 20px;
+}
+
+footer{
+    background-color: gray;
+    height:150px;
+}
+
+.email{
+    text-align: center;
+}
